@@ -3,6 +3,7 @@ Contains two python files:
 RentaCar.py contains all the classes and methods while RentaCar_Main.py contains the menu.
 
 Below is the planning before starting to code.
+<<<<<<< HEAD
 ## parent class 
 class vehicleRent
 we are going to use the below methods in the parent
@@ -19,6 +20,24 @@ return vehicle
 ### main.py and rent.py we will have two py script.
 class lar rent.py icerisinde
 methodlar ve classlarin objeleri main.py
+=======
+#parent class #########
+- class vehicleRent
+- we are going to use the below methods in the parent
+- display stock, rent hourly, rent daily, return vehicle
+
+#  Child class ###############
+- CarRent and BikeRent are child classes inherits from Parent Class vehicleRent
+- we will have discount method in the parent class
+
+#  customer class ###########
+- request vehicle
+- return vehicle
+
+# main.py and rent.py we will have two py script.
+- class lar rent.py icerisinde
+- methodlar ve classlarin objeleri main.py
+>>>>>>> 263f67f146716342269202574d14b5d90548e22c
 
 
 We first start writing with the layout with pass:
